@@ -1,0 +1,375 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>免费简历模板 个人简历模板 简历模板免费下载-站长素材。</title>
+<meta name="Keywords" content="简历模板 个人简历模板 简历模板下载 个人简历模板下载 求职简历模板 英文简历模板 英文简历模板下载" />
+<meta name="description" content="提供各类个人简历模板下载:个人简历封面 个人简历 简历模板 个人简历模板 求职简历模板 个人简历表格 英文简历 简历封面图片等素材。" />
+<link href="/style/css/common.css" type="text/css" rel="stylesheet" />
+<link href="/style/css/ppt.css" type="text/css" rel="stylesheet" />
+<link href="//img.chinaz.com/max-templates/passport/styles/topbar.css" type="text/css" rel="Stylesheet" />
+<script type="text/javascript" src="/style/js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="/style/js/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="/style/js/mainutf8.js"></script>
+</head>
+
+<body>
+
+<div class="toolBar">
+      <div class="TPmain">
+        <!--topNav Star -->
+        <div class="topNav clearfix">
+          <ul class="navList fl clearfix">
+            <li><div class="one"><a href="http://www.chinaz.com">站长之家</a></div></li>
+           
+            <li>
+              <div class="one"><a href="http://tool.chinaz.com" target="_blank">站长工具<i class="icon"></i></a></div>
+              <div class="two"> 
+                <a href="http://alexa.chinaz.com" target="_blank">ALEXA排名查询</a> 
+                <a href="http://rank.chinaz.com" target="_blank">百度权重查询</a> 
+                <a href="http://seo.chinaz.com" target="_blank">SEO概况查询</a> 
+                <a href="http://link.chinaz.com" target="_blank">友情链接查询</a> 
+                <a href="http://pr.chinaz.com" target="_blank">Google PR查询</a> 
+                <a href="http://whois.chinaz.com" target="_blank">Whois信息查询</a> 
+                <a href="http://tool.chinaz.com/beian.aspx" target="_blank">域名备案查询</a> 
+              </div>
+            </li>
+            
+            <li>
+              <div class="one"><a href="" target="_blank">站长素材<i class="icon"></i></a></div>
+              <div class="two"> 
+                <a href="//font.chinaz.com/" target="_blank">字体下载</a>
+                <a href="/jianli/" target="_blank">简历模板</a> 
+                <a href="/tupian/" target="_blank">高清图片</a> 
+                <a href="/shiliang/" target="_blank">矢量素材</a> 
+                <a href="/ppt/" target="_blank">PPT模板</a> 
+                <a href="/psd/" target="_blank">PSD素材</a>
+				<a href="https://jianli.chinaz.com/" target="_blank">在线简历</a>
+              </div>
+            </li>
+            <li><div class="one"><a href="http://down.chinaz.com" target="_blank">源码下载</a></div></li>
+            <li><div class="one"><a href="http://top.chinaz.com/" target="_blank">网站排行榜<i class="icon"></i></a></div>
+             <div class="two"> 
+                <a href="https://aso.chinaz.com/" target="_blank">App榜单</a>
+               <a href=" https://live.chinaz.com/" target="_blank">主播排行榜</a>
+               <a href="http://top.chinaz.com/" target="_blank">网站排行榜</a>
+              </div>
+            </li>
+             <li>
+              <div class="one"><a href="http://api.chinaz.com" target="_blank">站长数据API</a></div>
+            </li> 
+          </ul>
+          <div class="navUser mt5 fr" id="chinaz_topbar"></div>
+        </div>
+        <!--topNav End -->
+  </div>
+</div>
+<div class="sc_warp head bgwhite clearfix">
+<div class="logo fl"><a target="_blank" href="/"><img src="/style/images/sc-logo.png" width="181" height="41"  alt=""/></a></div>
+<div class="seach fl">
+<form action="//aspx.sc.chinaz.com/query.aspx" target="_blank" method="get" name="sForm">
+      <input name="keyword" class="search_form_input" id="search_form_input" placeholder="2022大学生 护士 IT行业 教师" autocomplete="off" type="text">
+      <input name="classID" type="hidden" id="classID" value="864" />
+      <input class="search_form_submit " id="search_form_submit" value="搜索" type="submit">
+      </form></div>
+<div class="upload fl ml15"><a target="_blank" href="/hezuo.html">上传作品</a></div>
+</div>
+<div class="pptnav jianli clearfix">
+<div class="sc_warp bgwhite">
+<ul>                                                  
+<li><a href="/">素材首页</a></li>
+<li><a class="press" href="/jianli/" target="_blank">简历模板</a></li>
+<li><a style="font-weight:bold;color:#ff6410" href="https://jianli.chinaz.com/?dh" target="_blank">在线制作简历</a></li>
+<li><a href="/jianli/daxuesheng.html" target="_blank">大学生简历模板</a></li>
+<li><a href="/jianli/yingjiesheng.html" target="_blank">应届生简历模板</a></li>
+<li><a href="/jianli/yingwenjianli.html" target="_blank">英文简历模板</a></li>
+<li><a href="/jianli/biaoge.html" target="_blank">简历表格下载</a></li>
+<li><a href="/jianli/fengmian.html" target="_blank">简历封面下载</a></li>
+</ul>
+</div></div>
+<div class="bggray clearfix pt20">
+<div class="sc_warp bgwhite">
+<div class="jl_navbar clearfix">
+<div class="jl_navbar_left fl"><span>热门推荐</span><i></i></div>
+<div class="jl_navbar_right fl">
+<ul>
+<li><a target="_blank" href="/tag_jianli/xingzheng.html">行政类简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/ZaiXiaoSheng.html">在校生简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/GongChengShi.html">工程师简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/LaoShi.html">老师简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/XiaoShou.html">销售类简历模板</a></li>
+<li><a style="color:#e0423a" target="_blank" href="/tag_jianli/DianShang.html">电商类简历模板</a></li>
+<li class="nobdr"><a target="_blank" href="/tag_jianli/DianZiShangWu.html">电子商务简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/ZhuLi.html">助理类简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/YingJieSheng.html">应届生简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/ShiChang.html">市场类简历模板</a></li>
+<li><a style="color:#4880ba" target="_blank" href="/tag_jianli/WeiShang.html">微商简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/KaiFa.html">技术开发简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/TuiGuang.html">推广类简历模板</a></li>
+<li class="nobdr"><a style="border-right:none;" target="_blank" href="/tag_jianli/WangYeSheJi.html">网页设计简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/BianJi.html">编辑类简历模板</a></li>
+<li><a style="color:#ff6410" target="_blank" href="/tag_jianli/HuLianWang.html">互联网简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/KeFu.html">客服类简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/YunYing.html">运营类简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/QianDuan.html">Web前端简历模板</a></li>
+<li><a target="_blank" href="/tag_jianli/YingXiao.html">营销类简历模板</a></li>
+<li class="nobdr"><a style="border-right:none;" target="_blank" href="tag_jianli/JianZhu.html">建筑行业简历模板</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sc_warp freepay clearfix mt20">
+<a class="freebtn" href="/jianli/tongyong.html">应届生简历模板</a>
+<a class="paybtn" href="/jianli/shangye.html">精品简历模板</a>
+</div>
+
+
+<div class="sc_warp  mt20">
+<div id="main">
+  <div class="main_list jl_main" id="container">
+
+
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220929574190.htm">
+			<img src="//scpic2.chinaz.net/Files/pic/jianli/202209/zjianli524_s.jpg"  alt="小升初个人自我介绍"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220929574190.htm">小升初个人自我介绍</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220929591331.htm">
+			<img src="//scpic2.chinaz.net/Files/pic/jianli/202209/zjianli528_s.jpg"  alt=" 影视制作个人信息表填写模板"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220929591331.htm"> 影视制作个人信息表填写模板</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220929415630.htm">
+			<img src="//scpic2.chinaz.net/Files/pic/jianli/202209/zjianli523_s.jpg"  alt="小清新电子简历封面模板"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220929415630.htm">小清新电子简历封面模板</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220929446311.htm">
+			<img src="//scpic2.chinaz.net/Files/pic/jianli/202209/zjianli533_s.jpg"  alt="展会设计简历制作模板"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220929446311.htm">展会设计简历制作模板</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220929109810.htm">
+			<img src="//scpic2.chinaz.net/Files/pic/jianli/202209/zjianli529_s.jpg"  alt="优秀测试工程师招聘简历模板"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220929109810.htm">优秀测试工程师招聘简历模板</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220929125201.htm">
+			<img src="//scpic2.chinaz.net/Files/pic/jianli/202209/zjianli531_s.jpg"  alt="幼儿教师应届毕业生求职简历"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220929125201.htm">幼儿教师应届毕业生求职简历</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220928551810.htm">
+			<img src="//scpic2.chinaz.net/Files/pic/jianli/202209/zjianli512_s.jpg"  alt="求职简历通用封面模板"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220928551810.htm">求职简历通用封面模板</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220928579131.htm">
+			<img src="//scpic2.chinaz.net/Files/pic/jianli/202209/zjianli532_s.jpg"  alt="幼师实习面试个人简历表格"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220928579131.htm">幼师实习面试个人简历表格</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220928337170.htm">
+			<img src="//scpic2.chinaz.net/Files/pic/jianli/202209/zjianli505_s.jpg"  alt="临床护理简历模版免费下载"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220928337170.htm">临床护理简历模版免费下载</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220928384911.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli510_s.jpg"  alt="前台行政个人简历模板Word"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220928384911.htm">前台行政个人简历模板Word</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220928593060.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli504_s.jpg"  alt="空调维修与调试简历模板表格"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220928593060.htm">空调维修与调试简历模板表格</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220928026001.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli517_s.jpg"  alt="市场拓展个性简历模板"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220928026001.htm">市场拓展个性简历模板</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220927573240.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli498_s.jpg"  alt="机电一体化应届生求职简历"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220927573240.htm">机电一体化应届生求职简历</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220927008461.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli500_s.jpg"  alt="简历自我介绍怎么写"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220927008461.htm">简历自我介绍怎么写</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220927383680.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli486_s.jpg"  alt="大学生求职简历封面图片"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220927383680.htm">大学生求职简历封面图片</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220927426051.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli489_s.jpg"  alt="电子商务数据分析师个人应聘表"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220927426051.htm">电子商务数据分析师个人应聘表</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220927116440.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli490_s.jpg"  alt="抖音客服毕业生个人简历模板"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220927116440.htm">抖音客服毕业生个人简历模板</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220927137751.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli511_s.jpg"  alt=" 秋招大学毕业生简历套装"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220927137751.htm"> 秋招大学毕业生简历套装</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220926434020.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli495_s.jpg"  alt="古风背景简历个人评价模板"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220926434020.htm">古风背景简历个人评价模板</a>
+        </p>
+		
+    </div>
+
+<div class="box col3 ws_block" style="width:219px;height:335px"> 
+		<a target="_blank" href="https://sc.chinaz.com/jianli/220926456491.htm">
+			<img src="//scpic3.chinaz.net/Files/pic/jianli/202209/zjianli506_s.jpg"  alt="六年级小学生简历封面模板"/>
+		</a>
+	 
+		<p><a class="title_wl" target="_blank" href="https://sc.chinaz.com/jianli/220926456491.htm">六年级小学生简历封面模板</a>
+        </p>
+		
+    </div>
+
+
+
+
+  </div>
+</div>
+</div>
+<div class="sc_warp bgwhite clearfix mt20 mb20">
+<div class="pagination fr clearfix clear">
+<a href="free_3.html" class="backpage">上一页</a><a href="free.html"><b>1</b></a> <a href="free_2.html"><b>2</b></a> <a href="free_3.html"><b>3</b></a> <a href="javascript:;" class='active'><b>4</b></a> <a href="free_5.html"><b>5</b></a><a href="free_6.html"><b>6</b></a><a href="free_7.html"><b>7</b></a><a href="free_8.html"><b>8</b></a><a href="free_9.html" class="shenlue">...</a><a href="free_878.html"><b>878</b></a><a href="free_5.html" class="nextpage">下一页</a>转到第 <input name="tbpage" id="tbpage" type="text" onkeydown="if(event.keyCode==13){ event.keyCode=9; document.getElementById('btngo').click();}" size="3"> 页 <input type="submit" id="btngo" onclick="return btngoUrl('tbpage','free','878')" value="跳转">
+
+</div>
+</div></div>
+
+
+<div class="clear"></div>
+<div class="TPfooterWrap clearfix mt20">
+       <div class="TPfooter">
+          <div class="TPmain">
+            <p>
+	            <a href="//www.chinaz.com/aboutus/index.html" target="_blank">关于站长之家</a> - 
+                <a href="http://ww.chinaz.com/aboutus/contact.php?from=news" target="_blank">联系我们</a> - 
+                <a href="//www.chinaz.com/aboutus/ad.html" target="_blank">广告服务</a> - 
+                <a href="//www.chinaz.com/aboutus/link.html" target="_blank">友情链接</a> - 
+	            <a href="//www.chinaz.com/aboutus/announce.html" target="_blank">版权声明</a> - 
+                <a href="//www.chinaz.com/aboutus/join.html" target="_blank">人才招聘</a> - 
+	             <a href="//www.chinaz.com/aboutus/events.html" target="_blank">网站动态</a> - 
+                <a href="//www.chinaz.com/aboutus/help.html" target="_blank">帮助</a> - 
+	           <a href="//m.sc.chinaz.com" target="_blank">手机版</a>
+			</p>
+            <p>©CopyRight 2002-2022 CHINAZ.COM Inc All Rights Reserved. 站长之家 版权所有&nbsp;&nbsp;</p>
+         
+         </div>
+     </div>
+ </div>
+<div style="display:none">
+<script src="/style/js/sctj.js"></script>
+</div>
+<script type="text/javascript" src="/style/js/uc.js" charset="utf-8"></script>
+
+
+</div>
+</body>
+</html>
