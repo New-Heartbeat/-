@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Oct 16 19:12:47 2022
+
+@author: 魏俊
+"""
+
+视频详情页url爬取内容与页面元素一致
+https://www.bilibili.com/video/BV1e14y177q2/?vd_source=135905d3089450e512648e8393b17cef
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
