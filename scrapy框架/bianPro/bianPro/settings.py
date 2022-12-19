@@ -1,4 +1,4 @@
-# Scrapy settings for firstBlood project
+# Scrapy settings for bianPro project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,19 +7,18 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'firstBlood'
+BOT_NAME = 'bianPro'
 
-SPIDER_MODULES = ['firstBlood.spiders']
-NEWSPIDER_MODULE = 'firstBlood.spiders'
+SPIDER_MODULES = ['bianPro.spiders']
+NEWSPIDER_MODULE = 'bianPro.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
-# 显示指定类型的日志
 LOG_LEVEL = 'ERROR'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
@@ -48,26 +47,27 @@ LOG_LEVEL = 'ERROR'
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'firstBlood.middlewares.FirstbloodSpiderMiddleware': 543,
+#    'bianPro.middlewares.BianproSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'firstBlood.middlewares.FirstbloodDownloaderMiddleware': 543,
+#    'bianPro.middlewares.BianproDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
-#    'scrapy.extensions.telnet.TelnetConsole': None,
-#}
+EXTENSIONS = {
+   'scrapy.extensions.telnet.TelnetConsole': None,
+}
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'firstBlood.pipelines.FirstbloodPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'bianPro.pipelines.BianproPipeline': 300,
+   'bianPro.pipelines.ImgPipeline': 301
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -93,3 +93,5 @@ LOG_LEVEL = 'ERROR'
 # Set settings whose default value is deprecated to a future-proof value
 REQUEST_FINGERPRINTER_IMPLEMENTATION = '2.7'
 TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
+
+IMAGES_STORE = './images_bian'

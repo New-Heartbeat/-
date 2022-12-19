@@ -1,0 +1,366 @@
+<!doctype html><html lang="zh">
+<head><meta name=renderer content=webkit>
+    <meta charset="utf-8"><title>统一身份认证平台</title>
+    
+<script>
+var __vpn_hostname_data = "webvpn.tjufe.edu.cn";
+var __vpn_protocol_data = "https";
+var __vpn_protocol_host = "https://webvpn.tjufe.edu.cn";
+var __vpn_app_hostname_data = "77726476706e69737468656265737421e3e44ed2333a7d567b468ca88d1b203b";
+var __vpn_app_protocol_data = "https";
+var __vpn_app_port_data = "";
+var __vpn_js_file = "/wengine-vpn/js/main.js?ver=20220915-09";
+var __vpn_worker_mode = 2;
+var __vpn_host_crypt = true;
+var __vpn_host_crypt_key = "wrdvpnisthebest!";
+var __vpn_host_crypt_iv = "wrdvpnisthebest!";
+</script>
+<script src="/wengine-vpn/js/main.js?ver=20220915-09" charset="utf-8"></script> <base href="./"><meta name="renderer" content="webkit"/><meta name="force-rendering" content="webkit"/><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11"/><meta content="always" name="referrer"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"><meta name="google" content="notranslate"/><!-- HTTP 1.1 --><meta http-equiv="pragma" content="no-cache"><!-- HTTP 1.0 --><meta http-equiv="cache-control" content="no-cache"><!-- Prevent caching at the proxy server --><meta http-equiv="expires" content="0"><link rel="icon" type="image/x-icon" href="/https/77726476706e69737468656265737421e3e44ed2333a7d567b468ca88d1b203b/linkid/api/image/download/login_favicon.png"/><style>
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #sso_redirect {
+            border: 0;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            background-size: contain;
+            background-image: url("/https/77726476706e69737468656265737421e3e44ed2333a7d567b468ca88d1b203b/images/loading30.gif");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        @media screen and (min-width: 1400px) {
+            #sso_redirect {
+                background-image: url("/https/77726476706e69737468656265737421e3e44ed2333a7d567b468ca88d1b203b/images/loading50.gif");
+            }
+        }
+
+        .background-div {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .table-tr-th {
+            background-color: white;
+            padding: 20px 50px 20px 50px;
+        }
+
+        .browser-download-item {
+            /* display: inline-block; */
+            float: left;
+            height: 160px;
+            width: 120px;
+            text-align: center;
+        }
+
+        .copy-right {
+            position: absolute;
+            bottom: 32px;
+            text-align: center;
+            width: 100%;
+            color: white;
+            bottom: 32px;
+        }
+    </style>
+</head>
+<body>
+<div style="display: none" class="ruleList">
+    <div class="code">singleWechat</div>
+    <div class="showName">微信扫码认证</div>
+    <div class="image">./images/login-page/singleWechat.png</div>
+    <div class="isRedirect">false</div>
+
+</div>
+<div style="display: none" class="ruleList">
+    <div class="code">UsernamePassword</div>
+    <div class="showName">用户名密码认证</div>
+    <div class="image">./images/login-page/UsernamePassword.png</div>
+    <div class="isRedirect">false</div>
+
+</div>
+<div style="display: none" class="ruleList">
+    <div class="code">smsLogin</div>
+    <div class="showName">手机验证码认证</div>
+    <div class="image">./images/login-page/smsLogin.png</div>
+    <div class="isRedirect">false</div>
+
+</div>
+<div style="display: none">
+    <p id="current-login-type">singleWechat</p>
+    <p id="login-croypto">jNUsc3+11nA=</p>
+    <p id="sso-second"></p>
+    <p id="user-id"></p>
+    <p id="user-object-id"></p>
+    <p id="phone-number"></p>
+    <p id="login-rule-type">normal</p>
+    <p id="login-page-flowkey">e28f6a67-fba0-4e3a-8fa9-f083de4fddb4_H4sIAAAAAAAAALVaDWwcxRUen/8dJ3aME0hp0ih1Ag1kLwkOIThpcjnbyYXzDz47SQ1pst6du1t7b3czO3s/UIWmiAKlESBBBA0tPwoqpOFHaiWq0BYiKkErqFQK/aFNpVY4SVUVtagVValE38z+3O75fJwxPcWX3Z03b7558+bN997e6b+hepOgm3SSEkQDE6wLpkEULSXk8ERS1XOCoVopRROiqoI12g9P+vJYsqiiayPY0E2F6qTQlcBEEVXlFiwHJBJUpPi1jffvidz3wOshVBtHiyVdy2JiirxZ0g1MUSQOo4ftYZNEzOCcTqbCzvhhSScYvlQVS6xPeMCi4oSKI5QSZcKieEA0euKoGbtjUrSpoj5PMByACjoaWHtMpqgjPilmxbAqaqlwgjI1PXkDrLSNWalEr2cnhlMo4hTiuiSqfpS3HfrZj/fvOPbXWlQTRy2i22JS1GaPBzjUMJsOH2wxeyawZ8Ju0UzD8/rGd86+svTQL2tRqB+1qLoo94sSmD+GmmmaYDOtq3Le2L4DsU9rrgm+2+EvRFFLUgUV3NzmYXQElpx9NzmiyBNF+TxFraoOC75TlKbGiELR1jSlhrn6msjqjf3wD6abNTSBTlpJLGDZEiQNnvIuq6/pl0TzoHPdS4mF83mYyZZKZsMaSGNByRiqEFiQGDx5aYz+vfvzN55rBWTGEYJ6PpEm5oWWiZxPB+giaBG3LlthoU+zMv5Gg6KGSHQ0trcPsHcWVyGuaFNYjismbf1C4sCeQ3etqmXSuTroVwOim+cCLoFN05nkAvmfm9/ovfhBqz12PbcfRQuzCs7F2XW/TjJllu0yvmwr4a+TomWGaJowojwgamIKZ2Cv9mlsn8ieK/HJ7tR1FYvaGyvJV99+5D/vhVDNOKrPiioslVFD0QKCZYWAB/Ol7zUxySoS3jYfF6Comc2kSudry4lEi+r6lIL3MlRcdgWiqNOEVVSkiEXTMDdF4gGENa6hqF3SMxldiwJ41iaqMOetvogGkAS4s6UEMaBCiPKnowUDF/s/lGhe8fs7678fQo3jqBk66Hwh4FpVsjiaxtLUOGohYObMBCYDOI4aJaIXDKozRBDmmtzlcO7rKOh32ywwqwYOwu/zBszcgA/YyRCl7skxopqA/9JSx2NBIIHpb9XfjD94bu2KEHfjkiAB7Wd673jw+A9f6LZ9s5XZ1o0IoHW8xCqwlAL3z16s4hQEa9mO80EzR3hE6xomelaRMeG2GAYvi+paUklZhAvt7X/jSOJVRQ6h+nHUymw24vgSTFkyzSiEINM1hzf9uN/l1BnWAutAOE6KK5PiOlWXplaKsmhQTChq9K4OSByyq2a7fXuQDbHNEVoTcOTrw+EyLhzmTrt9pvvWSg7wMGBZ4sMCEd/Yh6U0hHLU4r85VAFRUW5eoJoOF3JYySuah2yxD5kLpMG9uLkCok8BTUOO6yhrJVrok62oqltwsLb4bypZqSg3L1wwHkhITI+H7RIfNhlidS/8gT2Ll1+ugMuVmt/aMS3sz8N0aRlM+yBew2EcvJ2oAhuTnBe+VhdfDjR5GD/rw2hCo4ptxxli8RTcr8yzVAW0M8TnBdkZ3XZDnanzcC/14U5ixUxbDroFgTuxAlaf4LxQOiMG8bX58CmmBsdunf3feAVETGJeUPgYZfeEaeqOSZqKl5X2hCs1LzyLUliDHELittm43kN2edl4y8fbyA/+0kfJqmKvLf1/Qez3txxW4ex2/S1wV8nffIKfJkSgVwu5wIilYkZ4IHBrwC1FFegVE9GGdVWRCh5xBsIglBAG0zIMnVCBgAqB6fGEB3QZq4+OPvvC2YbJf/Ncr4nptMdZw1MyW08Y9EBCpwGh02g4YeqMbHACVpLHtfvSIka7WbOJnfyKmfswTwq6SiC6qgW/aj/BZ107gG4lEkMH+2MjiVGY5yVFIhUhRCyw8fJH31z+8KvityFhi6E6E7JbTtZqOeOvhU5rKxmHD80sxA1zxYu/2jUwduEQGGYcNcADTIE1NrPlkGwTXVFqIkdbmGkLx11BMEJjBtO0bp9oYAIENlhdCYnXt4wRQkMjXE+WJYp8YpAutvqDM4sDGZNzvjwXzaMj7L9bgRlFBntn9m4fc/jtsMOBy2hg31+rqmsASz7v9UG8D8qzIGARAnuHD2DbsmQCnysy9SCxdVIkJ43wSLs506mMjOBiiqYhkcI7IYu6dei242991NkYQiG7spFUSAbLw0HuH8wF8pzqu+kCQJ0cHDOla67asEGLbIMNSvx7yptt0ec2Vr0hGUPnvnfiw9NHdx8IfzeE6iBrUcwiL6+ToN2BWa9koIOL2UzruUFfjsL+P0ZRlxDmYqYdc9YZcB32G1swGIXqmP7Js+++9Pj5u7934bGjF589efG5o3wqx1HZNb6ynNZSMVvzkgsPPHX+rhem7zs2/dzXZyr3HI2ilWWhOs2OsvN333P+kTN/OfVN0OEpA5dqdKIu2HtXib1LskeW7kuKIapCguX2YIWJiGGoTnPCVsOyfPOpe+99LPOPd+y8ra9arZEJkxJRomX1NuXuvCMSe/50CDWNo3aYZgrLQxaNqASLcoEVmQhVktA75vpioOx0iS++OiUmXgVjRwLsmo2lASkrqorMxw/v9S5HsGmAo2InNoUUd6gFOlHA0qJazOuavXk5DxpM3SKS52RGoDJQwysDNXyXQ4hbX2KyIhqhPJoy0a52/0CcovVzOEu3sZOU9T5tsO8n4HyHVZrCdBeBIwYcf5TfxWTY1MtSug4bIQJzLoCQOQoLNwUivLGdLePULqyzuqBXu2BfC+dZYwP2S3AKziswjZzwHHfGye20CCM4hfMjpT2OSftvwDV42vbPDbN1dv1xRv/JZV/506n3v7EuhJbGUBtmJSU+zSEiY7KH+UUcLRIl0GEmQAPFqQJFW2acec444Rn6I4Gu4GlLPVcegdNUNLFNXtxycnVKy6roYQULICAwTfuMBWeWsSkRxXAXDny3HdiAYpc+3JF7qh+5r6QzjLlI0eytBw99tRBYareq1MKuLWqfcddWP1hX3OvXY5MOuIMhgCHaIUDDNDw2EofGxRlLtWOGTtxpba1+pIHS3j3BYk8LRICsKBWK84MnOmimil3qawBbw5N8wR18DtMcLvZj0zSsCbi8AYOS7jkocXuBinaCD1twVMq7RU1WMSkTMxOY0dJW4os7brBzxvBibz2EeM8Qy9wioOeCbnWNot7q0Y7NpqWHU1X0EXzO/uFFVsneMduWHlUyeCc4v/wxe+7Ulvufv/zEqWbOdhZhjdcboIX1d/cEEG9CS59DPPnibIP34qQIPvMxQy/eveLne69seyaEmsdRGyjAMTC2ZipUyeJx1IhtHhdD9ToLN+Oo01m5iFp8BWMC+YFc1eF8cbRcdmueQVLoet7u6peht5Im8I8OgieBcEG7B8Zx9g7XxWa0XGppjBXAKXoLWxqvRlqyaWNspfkhWcNeQgzM1dAVof9rxZ5zo+91LgmxV1btoqrqOaC3jovBbljq2w1R79UXe3/FJnE1Lz/XuIX+/GxVbeAd3S8P3tyuvvwhfx+xwD4m+MmRn40RID7Ea+VagGG7r2PKn3/UIprfMwLRP/7Qvqdu/M5xyT4IS+nfxx+E5bXGLvzaVE+wVAGo2lXFhR3VHbGSirvPaVeXkS6+qnDp8ThaU0aOh8QgVRlHl+G8pFoydlyiOFYctXmHar+i8ur69Z/gNLX7gt8vZLk44HS31HXVK4v6e4Kq5R53LOItvoCmaFep6iClDnvdw8OVFMFInZ5orLgrHYrKPIw5Vyl/99zCmfCs2y0wrd/d/fiKt166LcaLAm4Qg5jgrI8vJgTfEduHzhJAycSGNLUQjB5vAlC+B+LVphkO3IqmOdt21ZXk4Knb7Y2RqFa1JEpp7G2XiiPsX/mtn55sWD8B9tiDWor8Cvwygwkw3lSROuKq15sDCFcFoGsgOAxjghSOsTFNocW3dewTYm9qdw+NjSQML0mvCb4KnksUjtp0s2Oiq33JQ9m1IVTvUOYWGRtwpLL3uS6NwBlR8dihj1vVG2ldw0GYiL9XnH7m0QtPPjl9x+0Ge70/ffLpiz94ws4xKvGC2bCWUtf+PxZOLzu29XXuxYvt0tY+WAouhyEwLdZ0IIUF9qyXt7JUoLi6jCt4qCF2Q67XXSF3mZXalsn3WndGojccjO6ODA72xWGurfz4gYNTALZ7fPXmaz/z33dJLWqMoaY0HERRXcYxVMfqKXH+2peFU1pwbZ1UVNfWdWnddBekCfgq1SXdXZNagpPOfD5yPsAby+R0FPGyyjR4Es//DHZCRua6HDMo99uTfz5315fM7fxF7MKJAis/eaRnQRKcxyK8MERRbB7Mvqu/qMmEjbLKlzmUcAmXMPDYVDaUs1LTKFFSKUwcK66YKcR/EDCqD4hUSrsOc6TCET3HOZTxn8bBodGDib7RsnSGba0Ge1mNABlp4GSE/dVTtNDEksW8KI6zmP0w4bq5LvCwnSAVOs4cP9D89C9OAP92gkND1vuJxI+KW57frwu8+q+hqGYD7P1O+4xJ8CJ6jDMIWuDy71fuXcd/zEPtuiCAy1TTqe2mVcPRVVevGhjaGYv3rToA/RfIOkQvLWIYMbkaFZddu1HG3Vs2S1jctGmDuH79+g2bu7dgvAl01YmyTKpRcnmFek8eiCRB18/uQklI1Cplms+fRNor+8+PhrhHlAHAf9SzvAIEYa3xScKwVx91dtfwmx/0r35Y3Gcfz/2zqWOZXvVp5D3PnXkkt/e6w+BzkHhhTSIFg7rSQJUkUdM12OaqcovovgQq/nCjbnBosC+fN/J5vqGW/Q8LdJ4gbSgAAA==</p>
+    <p id="captcha-url"></p>
+    <p id="redirect-uri">service=https%3A%2F%2Fwebvpn.tjufe.edu.cn%2Flogin%3Fcas_login%3Dtrue</p>
+    <p id="login-back-uri">https%3A%2F%2Fwebvpn.tjufe.edu.cn%2Flogin%3Fcas_login%3Dtrue</p>
+    <p id="login-error-code"></p>
+    <p id="recaptcha-invisible"></p>
+    <form method="post">
+        <div id="login-type"></div>
+        <div id="login-username"></div>
+        </form>
+    <div id="list-providers"
+         class="card d-sm-none d-md-block bg-light">
+        <div class="card-body">
+            <h3 class="card-title">Or login with:</h3>
+
+            <div class="card-text">
+                <ul>
+                    <li>
+                        <a class="btn btn-block btn-social btn-cas" href="clientredirect?client_name=adapter&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="adapter" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> adapter
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-qyweixin" href="clientredirect?client_name=corpWechat&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="corpWechat" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> corpWechat
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-wechat" href="clientredirect?client_name=Wechat&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="Wechat" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> Wechat
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-tyeducloud" href="clientredirect?client_name=tyEduCloud&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="tyEduCloud" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> tyEduCloud
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-dingding" href="clientredirect?client_name=dingDing&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="dingDing" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> dingDing
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-dingdingwlan" href="clientredirect?client_name=dingDingWlan&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="dingDingWlan" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> dingDingWlan
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-singlewechatoauth" href="clientredirect?client_name=singleWechatOauth&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="singleWechatOauth" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> singleWechatOauth
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-feishuoauth" href="clientredirect?client_name=feishuOauth&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="feishuOauth" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> feishuOauth
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-isni" href="clientredirect?client_name=isni&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="isni" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> isni
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-genericoauth20" href="clientredirect?client_name=ssoOauth&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="ssoOauth" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> ssoOauth
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-genericoauth20" href="clientredirect?client_name=corpWechatOauth2&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="corpWechatOauth2" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> corpWechatOauth2
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-block btn-social btn-genericoauth20" href="clientredirect?client_name=welinkOauth&amp;service=https://webvpn.tjufe.edu.cn/login?cas_login%3Dtrue" title="welinkOauth" autoredirect="false"> <span
+                                class="fa fa-sign-in-alt"></span> welinkOauth
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<p style="display: none" id="frontend-addr">https://sso.tjufe.edu.cn</p>
+
+<!--[if lt IE 11]>
+<div class="background-div">
+    <img id="low-img-bg" style="width:100%;height: 100%;">
+</div>
+<div style="position: relative;top: 100px">
+    <table width=100% cellspacing="0">
+        <tbody>
+        <tr>
+            <th width=15%></th>
+            <th align="left" class="table-tr-th" colspan="2">
+                <h3 style="font-size:18px;color: #1c1c1c;margin-top: 12px">你的浏览器版本过低，为保障正常使用网站功能，请使用以下推荐的浏览器</h3>
+            </th>
+            <th width=15%></th>
+        </tr>
+        <tr>
+            <th width=15%></th>
+
+            <th align="left" valign="top" class="table-tr-th" width=35%>
+
+                <div style="height: 60px">
+                    <div style="font-size:14px;color: #1c1c1c;">1、请尝试切换至极速模式</div>
+                    <p style="font-size:14px;color: #666;text-indet:2em">(如果使用360、搜狗、QQ、百度、猎豹、傲游等双核浏览器)</p>
+                </div>
+                <div>
+                    <img id="switch-kernel-img">
+                </div>
+            </th>
+
+            <th align="left" valign="top" class="table-tr-th">
+                <div style="height: 60px">
+                    <div style="font-size:14px;color: #1c1c1c;">2、使用以下推荐的浏览器</div>
+                </div>
+                <div style="height: 180px">
+                    <div class="browser-download-item">
+                        <img width="64" id="win7-google-img">
+                        <p>谷歌浏览器</p>
+                        <a id="win7-google-a">点击下载</a>
+                    </div>
+                    <div class="browser-download-item">
+                        <img width="64" id="win7-ie11-img">
+                        <p>IE 11浏览器</p>
+                        <a id="win7-ie11-a">点击下载</a>
+                    </div>
+                </div>
+
+                <div style="height: 40px">
+                    <div style="font-size:14px;color: #1c1c1c;">XP系统及Vista系统</div>
+                </div>
+                <div style="height: 160px">
+                    <div class="browser-download-item">
+                        <img width="64" src="./images/browser-google-icon.jpg" id="xp-google-img">
+                        <p>谷歌浏览器</p>
+                        <a id="xp-google-a">点击下载</a>
+                    </div>
+                </div>
+            </th>
+
+            <th width=15%></th>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
+<script>
+    var url = document.getElementById('frontend-addr').innerText;
+    document.getElementById('low-img-bg').src = url + '/public/polyfills-page/images/bg.jpg';
+    document.getElementById('win7-google-img').src = url + '/public/polyfills-page/images/browser-google-icon.jpg';
+    document.getElementById('win7-google-a').href = url + '/public/polyfills-page/install-package/70.0.3538.67_chrome_installer.exe';
+    document.getElementById('win7-ie11-img').src = url + '/public/polyfills-page/images/browser-ie-icon.jpg';
+    document.getElementById('win7-ie11-a').href = url + '/public/polyfills-page/install-package/ie11_zh-cn_wol_win7.exe';
+    document.getElementById('xp-google-img').src = url + '/public/polyfills-page/images/browser-google-icon.jpg';
+    document.getElementById('xp-google-a').href = url + '/public/polyfills-page/install-package/49.0.2623.112_chrome_installer.exe';
+    document.getElementById('switch-kernel-img').src = url + '/public/polyfills-page/images/kernel-readme.jpg';
+</script>
+<![endif]--><div id="sso_redirect">
+</div>
+<script>vpn_eval((function(){
+
+    var list = document.getElementsByClassName('ruleList');
+    var isAdapterRedirect = false;
+    var isAutoRedirect = false;
+    var isAutoRedirectClientName = null;
+    for (var i = 0; i < list.length; i++) {
+        var ele = list[i].getElementsByClassName('code')[0];
+        var code = ele.innerText;
+        var autoRedirect = list[i].getElementsByClassName('isRedirect')[0];
+        var autoRedirectCode = autoRedirect.innerText;
+        if (autoRedirectCode == 'true') {
+            isAutoRedirect = true;
+            isAutoRedirectClientName = code;
+            break;
+        }
+        if (code == 'adapter') {
+            isAdapterRedirect = true;
+        }
+    }
+
+    var paramArr = window.location.search.substring(1).split('&');
+    var url = './clientredirect?client_name=#client_name';
+
+    if (paramArr.length > 0) {
+        for (var j = 0; j < paramArr.length; j++) {
+            if (paramArr[j].split('=')[0] == 'service') {
+                url = url + '&' + paramArr[j];
+            }
+        }
+    }
+    var clientType = document.getElementById("current-login-type").innerText;
+    var errorCode = document.getElementById("login-error-code").innerText;
+    if (errorCode === "1410041" && (clientType == "dingDingWlan" ||  clientType=="adapter" ||  clientType=="welinkOauth"||
+        clientType=="feishuOauth" || clientType=="corpWechatOauth2" || clientType=="ssoOauth" || clientType=="" || clientType=="singleWechatOauth")) {
+        if(clientType == ""){
+            clientType = "appToken"
+        }
+        url = "./public/client/bind/fail?clientname=#clientname";
+        url = url.replace('#clientname', clientType);
+        window.location.href = url;
+    }
+
+    if (errorCode === "1030028" && (clientType == "dingDingWlan" ||  clientType=="adapter" ||  clientType=="welinkOauth"||
+        clientType=="feishuOauth" || clientType=="corpWechatOauth2" || clientType=="ssoOauth"|| clientType=="" || clientType=="singleWechatOauth")) {
+        if(clientType == ""){
+            clientType = "appToken"
+        }
+        url = "./public/client/bind/error?clientname=#clientname";
+        url = url.replace('#clientname', clientType);
+        window.location.href = url;
+    }
+
+    if (isAutoRedirect) {
+        url = url.replace('#client_name', isAutoRedirectClientName);
+        window.location.href = url;
+    }
+
+    if (isAdapterRedirect) {
+        url = url.replace('#client_name', 'adapter');
+        window.location.href = url;
+    }
+
+    var sso = document.getElementById('sso_redirect');
+    document.body.removeChild(sso);
+
+
+}
+).toString().slice(12, -2),"");</script>
+<app-root></app-root>
+<!--<script>
+    var url = document.getElementById("frontend-addr").innerText;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url + '/public/deploy/deploy.js?' + (new Date()).getTime();
+    script.onload = function () {
+        window.casPageInit("login");
+    };
+    script.onerror = function (e) {
+        console.log(e);
+    };
+    document.body.appendChild(script);
+</script>--><script>vpn_eval((function(){
+
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "/public/deploy/deploy.js?" + new Date().getTime();
+    script.onload = function () {
+        window.casPageInit("login");
+    };
+    script.onerror = function (e) {
+        console.log(e);
+    };
+    document.body.appendChild(script);
+
+
+}
+).toString().slice(12, -2),"");</script>
+
+</body>
+</html>
+
+
+
